@@ -4,15 +4,15 @@ reference:
 https://cloud.google.com/deploy/docs/quickstart-basic
 
 ##
-In this quickstart we will show 
+In this quickstart we will show you how to use Google Cloud Deploy to deliver a sample application image named **"echoserver"** to two different GKE clusters.
 
- you how to use Google Cloud Deploy to deliver a sample application image named echoserver to a sequence of two Google Kubernetes Engine clusters.
+Steps include
 
-In this quickstart, you'll do the following:
-
-Create the two clusters.
-
-Create a Skaffold configuration and a Kubernetes manifest to specify the (pre-built) container image to deploy.
+1. Set up role
+2. Create the two clusters.
+3. Create configuration files
+    + a Skaffold configuration and 
+    + a Kubernetes manifest to specify the (pre-built) container image to deploy.
 
 Define your Google Cloud Deploy delivery pipeline and deployment targets, which point to the two clusters.
 
